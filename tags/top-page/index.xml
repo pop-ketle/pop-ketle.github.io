@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>top-page on My Portfolio Using Hugo</title>
+    <link>pop-ketle.github.io/tags/top-page/</link>
+    <description>Recent content in top-page on My Portfolio Using Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="pop-ketle.github.io/tags/top-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MY PORTFOLIO</title>
+      <link>pop-ketle.github.io/</link>
+      <pubDate>Sat, 26 Sep 2020 23:08:59 +0900</pubDate>
+      
+      <guid>pop-ketle.github.io/</guid>
+      <description>MY PORTFOLIO ちょっとした紹介  ポートフォリオの代わり 様々な場所に分散している自分に関する情報を一か所に集める  この二つを主な目的として、Hugoを使って作成してみました。
+以前までは、Emacsのorg-modeとOrg modeファイルをhtmlにエクスポートする時に適用されるテーマReadTheOrgを使用していましたが、SpaceEmacsのVimとEmacsが合わさった使い心地があまりしっくりこないのと、エディタを移るたびにキーバインドの頭を切り替えるのが面倒だったのでこちらに移行しました。
+こちらもテーマが今一つ気に入っていないので、そのうち変更、というか自作してみたいです。 ロゴとかファビコン？はテストでおいているだけで現在仮置きです。タグの機能もあんまり使えてません。
+今はVisual Studio Codeをメインエディタに、Sublime Text、SpaceEmacsをサブで使っています。メモアプリはNotionにはまっています。密かな将来の野望は僕の考えた最強のorgmodeエディタをつくることです。</description>
+    </item>
+    
+  </channel>
+</rss>
