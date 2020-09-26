@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self Introduction on My Portfolio Using Hugo</title>
-    <link>/self-introduction/</link>
+    <link>https://pop-ketle.github.io/self-introduction/</link>
     <description>Recent content in Self Introduction on My Portfolio Using Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 27 Sep 2020 06:52:52 +0900</lastBuildDate><atom:link href="/self-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 06:52:52 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/self-introduction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

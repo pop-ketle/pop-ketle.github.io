@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MY PORTFOLIO on My Portfolio Using Hugo</title>
-    <link>/</link>
+    <link>https://pop-ketle.github.io/</link>
     <description>Recent content in MY PORTFOLIO on My Portfolio Using Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
