@@ -23,21 +23,21 @@ if (!doNotTrack) {
     <title> :: My Portfolio Using Hugo</title>
 
     
-    <link href="/css/nucleus.css?1715608570" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1715608570" rel="stylesheet">
-    <link href="/css/hybrid.css?1715608570" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1715608570" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1715608570" rel="stylesheet">
-    <link href="/css/auto-complete.css?1715608570" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1715608570" rel="stylesheet">
-    <link href="/css/theme.css?1715608570" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1715608570" rel="stylesheet">
+    <link href="/css/nucleus.css?1764577679" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1764577679" rel="stylesheet">
+    <link href="/css/hybrid.css?1764577679" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1764577679" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1764577679" rel="stylesheet">
+    <link href="/css/auto-complete.css?1764577679" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1764577679" rel="stylesheet">
+    <link href="/css/theme.css?1764577679" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1764577679" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1715608570" rel="stylesheet">
+    <link href="/css/theme-blue.css?1764577679" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1715608570"></script>
+    <script src="/js/jquery-3.3.1.min.js?1764577679"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63,14 +63,14 @@ if (!doNotTrack) {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1715608570"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1715608570"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1764577679"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1764577679"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/pop-ketle.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1715608570"></script>
+<script type="text/javascript" src="/js/search.js?1764577679"></script>
 
     
   </div>
@@ -294,14 +294,7 @@ if (!doNotTrack) {
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#javascriptで書いたシューティングゲーム">Javascriptで書いたシューティングゲーム</a></li>
-    <li><a href="#style_transfer">style_transfer</a></li>
-    <li><a href="#chartjsを用いたグラフ作成アプリ">chart.jsを用いたグラフ作成アプリ</a></li>
-    <li><a href="#テクスチャ合成">テクスチャ合成</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -325,38 +318,7 @@ if (!doNotTrack) {
 
 
 
-	<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<hr>
-<h2 id="javascriptで書いたシューティングゲーム">Javascriptで書いたシューティングゲーム</h2>
-<p>基本、杉本雅弘さんの本<a href="https://amzn.to/2GajiS4">「ゲーム＆モダンJavaScriptで2倍楽しい］グラフィックスプログラミング入門 ——リアルタイムに動く画面を描く。プログラマー直伝の基本」</a>をもとに実装したものですが一応、wasd対応したりリスタートにRキー対応、ゲーム中に流れる背景など個人の工夫も少し入れています。
-この本からは内積と外積の使用によるホーミングミサイルの実装など内積外積を用いたプログラミングを学びました。<br>
-実際に実装したゲーム-&gt;<a href="https://pop-ketle.github.io/my-graphics-programming-book/stg/001/">シューティングゲーム</a></p>
-<hr>
-<h2 id="style_transfer">style_transfer</h2>
-<p>論文の再実装ではありますが、Kerasで作成したCNNを用いたオリジナル画像にスタイル画像の特徴を載せるというvgg16を用いたモデルです。
-この程度のモデルなら実装できるというアピールのために作りました。
-<a href="https://github.com/pop-ketle/style_transfer">https://github.com/pop-ketle/style_transfer</a>
-<img src="/images/style_transfer.png" alt=""></p>
-<hr>
-<h2 id="chartjsを用いたグラフ作成アプリ">chart.jsを用いたグラフ作成アプリ</h2>
-<p>.csvファイルの置いてあるサーバーにアクセスしてデータテーブルを作成、テーブルの各行をクリックするとグラフや情報が表示されるchart.jsの練習で作ったアプリです。<br>
-例の画像:
-<img src="/images/table.png" alt="">
-<img src="/images/chart.png" alt=""></p>
-<hr>
-<h2 id="テクスチャ合成">テクスチャ合成</h2>
-<p>手ごろな画像が残っていなかったので微妙な感じですが、</p>
-<ol>
-<li>出力テクスチャを入力テクスチャのランダムなピクセルを割り当てることで初期化する。この時割り当てたピクセルを保存しておく。</li>
-<li>出力テクスチャ上で全探索と同様にL字型の近傍群を探索する。</li>
-<li>L型近傍群の各ピクセルには出力テクスチャ上のどのピクセルの色が割り当てられたかという情報が保存されている。この情報を用いて出力テクスチャに割り当てる候補となるピクセルを限定する。よって最大候補数は近隣ピクセル群のピクセル数となる。</li>
-<li>候補となる入力テクスチャ上の各候補ピクセル群と出力テクスチャ上のピクセル群を比較する。比較には、各ピクセルの差分の二乗和を用いる。もし、近隣ピクセル群が入力テクスチャをはみ出した場合、入力テクスチャ内に治るランダムな位置に候補ピクセルを変更する。</li>
-<li>差分の二乗和がもっとも小さかった入力テクスチャのピクセルを出力テクスチャに割り当て、割り当てたピクセル座標も記録する。</li>
-</ol>
-<p>といったアルゴリズムで入力画像から合成して作成した画像です。
-<img src="/images/is.png" alt=""> &ndash;&gt;</p>
-
+	
 
 
 
@@ -513,19 +475,19 @@ if (!doNotTrack) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1715608570"></script>
-    <script src="/js/perfect-scrollbar.min.js?1715608570"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1715608570"></script>
-    <script src="/js/jquery.sticky.js?1715608570"></script>
-    <script src="/js/featherlight.min.js?1715608570"></script>
-    <script src="/js/highlight.pack.js?1715608570"></script>
+    <script src="/js/clipboard.min.js?1764577679"></script>
+    <script src="/js/perfect-scrollbar.min.js?1764577679"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1764577679"></script>
+    <script src="/js/jquery.sticky.js?1764577679"></script>
+    <script src="/js/featherlight.min.js?1764577679"></script>
+    <script src="/js/highlight.pack.js?1764577679"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1715608570"></script>
-    <script src="/js/learn.js?1715608570"></script>
-    <script src="/js/hugo-learn.js?1715608570"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1764577679"></script>
+    <script src="/js/learn.js?1764577679"></script>
+    <script src="/js/hugo-learn.js?1764577679"></script>
     
         
-            <script src="/mermaid/mermaid.js?1715608570"></script>
+            <script src="/mermaid/mermaid.js?1764577679"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
